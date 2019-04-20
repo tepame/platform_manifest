@@ -12,7 +12,8 @@
 		 sync-c="true"
 		 sync-j="4" />
 
-	<!-- tepame-os projects -->
-	<project path="platform_manifest" name="platform_manifest" groups="pdk" />
+	<!-- devices -->
+	<project path="device/zte/v580" name="zte_blade_v580" groups="pdk,devices" />
+	<project path="device/zte/v6" name="zte_blade_v6" groups="pdk,devices" />
 
 </manifest>
