@@ -4,15 +4,15 @@
 	<!-- remote origin definition -->
 	<remote name="tepame"
 		fetch="https://github.com/tepame"
-		revision="refs/heads/master" />
+		revision="master" />
 
 	<!-- default origin source -->
-	<default revision="refs/heads/master"
+	<default revision="master"
 		 remote="tepame"
 		 sync-c="true"
 		 sync-j="4" />
 
 	<!-- tepame-os projects -->
-	<project path="platform_manifest" remote="tepame" name="tosp/platform_manifest" groups="pdk" />
+	<project path="platform_manifest" remote="tepame" name="tosp/platform/platform_manifest" groups="pdk" />
 
 </manifest>
