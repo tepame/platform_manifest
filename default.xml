@@ -13,6 +13,6 @@
 		 sync-j="4" />
 
 	<!-- tepame-os projects -->
-	<project path="platform_manifest" remote="tepame" name="tosp/platform/platform_manifest" groups="pdk" />
+	<project path="platform_manifest" name="platform_manifest" groups="pdk" />
 
 </manifest>
