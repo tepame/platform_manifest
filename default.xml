@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?/>
+<manifest>
+
+	<!-- remote origin definition -->
+	<remote name="tepame"
+		fetch="https://github.com/tepame"
+		revision="refs/heads/master" />
+
+	<!-- default origin source -->
+	<default revision="refs/heads/master"
+		 remote="tepame"
+		 sync-c="true"
+		 sync-j="4" />
+
+	<!-- tepame-os projects -->
+	<project path="platform_manifest" remote="tepame" name="tosp/platform_manifest" groups="pdk" />
+
+</manifest>
