@@ -12,8 +12,18 @@
 		 sync-c="true"
 		 sync-j="4" />
 
+	<!-- projects -->
+	
 	<!-- devices -->
-	<project path="device/zte/v580" name="zte_blade_v580" groups="pdk,devices" />
-	<project path="device/zte/v6" name="zte_blade_v6" groups="pdk,devices" />
+	<project path="device/zte/blade_v580" name="device_zte_blade_v580" groups="pdk,devices" />
+	<project path="device/zte/blade_v6" name="device_zte_blade_v6" groups="pdk,devices" />
+	
+	<!-- kernel -->
+	<project path="kernel/zte/blade_v580" name="kernel_zte_blade_v580" groups="pdk,kernel" />
+	<project path="kernel/zte/blade_v6" name="kernel_zte_blade_v6" groups="pdk,kernel" />
+	
+	<!-- vendor -->
+	<project path="vendor/zte/blade_v580" name="vendor_zte_blade_v580" groups="pdf,vendor" />
+	<project path="vendor/zte/blade_v6" name="vendor_zte_blade_v6" groups="pdk,vendor" />
 
 </manifest>
